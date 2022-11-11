@@ -45,7 +45,7 @@ public class CollegeController {
 	@PutMapping("/")
     public ResponseEntity<String> update(@RequestBody Electoral_CollegeDto college) throws SQLException {
 		//TODO code for update
-        return ResponseEntity.ok("College Updated");
+        return ResponseEntity.ok("College pdated");
     }
 	
 	@DeleteMapping("/{id}")
